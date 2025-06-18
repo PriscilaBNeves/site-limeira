@@ -589,6 +589,48 @@ table {
         align-items: center;
     }
 
+    header{
+        img{
+            width: 80%;
+        }
+    }
+
+    .distancia{
+         /* neutraliza o float. é necessario na proxima sessão após o uso do float */
+        padding-left: 0px;
+        
+    }
+
+    .tabela-distancia{
+        text-align: center;
+    }
+
+    .rolagem{
+        overflow: auto;
+        width: 100%;
+    }
+
+    .foto-esporte{
+        width: 100%!important;
+    }
+
+    .foto-comercio{
+        width: 100%;
+    }
+
+    .foto-municipio{
+            float: none;
+            width: 100%;   
+    }
+
+    .foto-distancia{
+        width: 100%;
+    }
+
+    .foto-turismo{
+        width: 100%;
+    }
+
     .grid-municipio{
         .card{
             width: 100%;
